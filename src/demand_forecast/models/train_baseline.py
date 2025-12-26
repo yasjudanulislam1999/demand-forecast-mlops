@@ -28,7 +28,7 @@ def evaluate(y_true: np.ndarray, y_pred: np.ndarray) -> dict[str, float]:
 
 
 def main() -> None:
-    mlflow.set_experiment("demand-forecast-baseline")
+    mlflow.set_experiment("demand-forecast-baseline-s3")
 
     train = load_split("train")
     valid = load_split("valid")
