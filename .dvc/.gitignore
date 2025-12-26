@@ -1,3 +1,11 @@
 /config.local
 /tmp
 /cache
+
+# MLflow local state
+mlflow.db
+artifacts/
+
+# Python caches
+__pycache__/
+*.pyc
