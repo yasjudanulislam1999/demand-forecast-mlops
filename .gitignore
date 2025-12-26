@@ -29,3 +29,6 @@ data/**
 
 git add .gitignore
 git commit -m "chore: ignore mlflow local artifacts and runtime files"
+# runtime artefacts (do not commit)
+artifacts/
+mlflow.db
