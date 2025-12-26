@@ -26,3 +26,6 @@ airflow/plugins/__pycache__/
 # Data (tracked by DVC, not Git)
 data/**
 !data/**/*.dvc
+
+git add .gitignore
+git commit -m "chore: ignore mlflow local artifacts and runtime files"
